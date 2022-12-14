@@ -1,0 +1,1153 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ass",
+				"assocstats"
+			],
+			[
+				"string",
+				"stringr"
+			],
+			[
+				"res",
+				"result-title"
+			],
+			[
+				"html_ele",
+				"html_elements"
+			],
+			[
+				"html_le",
+				"html_elements"
+			],
+			[
+				"html_text",
+				"html_text2"
+			],
+			[
+				"html_te",
+				"html_text2"
+			],
+			[
+				"collect",
+				"collect_data"
+			],
+			[
+				"html_",
+				"html_elements"
+			],
+			[
+				"fu",
+				"fun\tFunction"
+			],
+			[
+				"html_tex",
+				"html_text2"
+			],
+			[
+				"html_attr",
+				"html_attrs"
+			],
+			[
+				"html_element",
+				"html_elements"
+			],
+			[
+				"sync",
+				"sync_playwright"
+			],
+			[
+				"html_elem",
+				"html_elements"
+			],
+			[
+				"lib",
+				"library"
+			],
+			[
+				"geom_",
+				"geom_errorbar"
+			],
+			[
+				"MAIN",
+				"MAINLANGUAGEI"
+			],
+			[
+				"pred",
+				"pred_nation2_0"
+			],
+			[
+				"nation",
+				"nation1"
+			],
+			[
+				"geom",
+				"geom_errorbar"
+			],
+			[
+				"etrane",
+				"etranger"
+			],
+			[
+				"fomr",
+				"formationagg"
+			],
+			[
+				"rs",
+				"rs2"
+			],
+			[
+				"mism",
+				"mismatch"
+			],
+			[
+				"Learn",
+				"LEARNOCCUPATIONISCO_CH"
+			],
+			[
+				"mis",
+				"mismatchagg"
+			],
+			[
+				"mi",
+				"mismatchagg"
+			],
+			[
+				"misc",
+				"mismatch"
+			],
+			[
+				"Curr",
+				"CURROCCUPATIONISCO_CH"
+			],
+			[
+				"curro",
+				"CURROCCUPATIONISCO_CH"
+			],
+			[
+				"format",
+				"formation"
+			],
+			[
+				"em",
+				"emplois"
+			],
+			[
+				"empl",
+				"emploisagg"
+			],
+			[
+				"form",
+				"formationagg"
+			],
+			[
+				"fom",
+				"formation"
+			],
+			[
+				"pred_m6_",
+				"pred_m6_etranger"
+			],
+			[
+				"rs_publ",
+				"rs_public"
+			],
+			[
+				"pe",
+				"permis"
+			],
+			[
+				"rs_",
+				"rs_tous"
+			],
+			[
+				"fomratin",
+				"formationagg"
+			],
+			[
+				"nat",
+				"nation2"
+			],
+			[
+				"mul",
+				"CURRACTIVITY_MULTI"
+			],
+			[
+				"Nation",
+				"NATIONALITYCONTI"
+			],
+			[
+				"compa",
+				"COMPANY_DISTRICT"
+			],
+			[
+				"company",
+				"COMPANY_DISTRICT"
+			],
+			[
+				"curr",
+				"CURRACTIVITYSTATUSII"
+			],
+			[
+				"tidy",
+				"tidy_m6"
+			],
+			[
+				"Nationali",
+				"NATIONALITYCAT"
+			],
+			[
+				"transl",
+				"translator"
+			],
+			[
+				"trans",
+				"translator"
+			],
+			[
+				"get",
+				"getText"
+			],
+			[
+				"dat",
+				"datetime"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"read",
+				"read_csv"
+			],
+			[
+				"conn",
+				"connexion"
+			],
+			[
+				"conne",
+				"connexion"
+			],
+			[
+				"fin",
+				"findAll"
+			],
+			[
+				"pl",
+				"playwright"
+			],
+			[
+				"gett",
+				"get_text"
+			],
+			[
+				"abonn",
+				"abonné"
+			],
+			[
+				"c-art",
+				"c-article-flux__date-day"
+			],
+			[
+				"find_ele",
+				"find_element_by_xpath"
+			],
+			[
+				"find",
+				"find_element_by_xpath"
+			],
+			[
+				"exep",
+				"except"
+			],
+			[
+				"in",
+				"intersection"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"list",
+				"list_to"
+			],
+			[
+				"corpus",
+				"corpus_folder"
+			],
+			[
+				"corp",
+				"corpus_title"
+			],
+			[
+				"tweet",
+				"tweet_id"
+			],
+			[
+				"coprus",
+				"corpus_title"
+			],
+			[
+				"u",
+				"username"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"Follo",
+				"Followers_df"
+			],
+			[
+				"Beautif",
+				"BeautifulSoup"
+			],
+			[
+				"sous",
+				"sous_titre"
+			],
+			[
+				"Article",
+				"Article_elementTitle__3we9B"
+			],
+			[
+				"chapter",
+				"chapter_folder"
+			],
+			[
+				"bato",
+				"bato_chapitre"
+			],
+			[
+				"image",
+				"image_tag"
+			],
+			[
+				"image_",
+				"image_info"
+			],
+			[
+				"mana",
+				"mangakakalot"
+			],
+			[
+				"humidit",
+				"humidité"
+			],
+			[
+				"temp",
+				"température"
+			],
+			[
+				"api",
+				"api_adress_3"
+			],
+			[
+				"json",
+				"json_data"
+			],
+			[
+				"z",
+				"z_xyz"
+			],
+			[
+				"y",
+				"y_xyz"
+			],
+			[
+				"AX",
+				"Axes3D"
+			],
+			[
+				"lis",
+				"list2"
+			],
+			[
+				"rand",
+				"randint"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# To use playwright\nfrom playwright.sync_api import sync_playwright\n# To parse html response\nfrom bs4 import BeautifulSoup\n# To make implicite wait in the code\nimport time\n# To converte time in multiple format\nimport datetime\n# To manage data\nimport pandas as pd\n# To manage the files and directories\nimport os\n\n'''\nFUNCTIONS:\nHere we create all the function we need for the\nscraping.\n'''\n\n# Open a page, render the Javascript and parse\n# it with BeautifulSoup\ndef get_page(url):\n\twith sync_playwright() as playwright:\n\t\t# Open new page\n\t\tbrowser = playwright.chromium.launch(headless=True)\n\t\tcontext = browser.new_context()\n\t\tpage = context.new_page()\n\n\t\t# Get the page\n\t\tpage.goto(url)\n\t\ttime.sleep(2) # waiting\n\t\t\n\t\t# Get the content\n\t\tresponse = page.content()\n\t\tsoup = BeautifulSoup(response, \"lxml\")\n\n\t\t# Close all\n\t\tpage.close()\n\t\tcontext.close()\n\t\tbrowser.close()  \n\n\treturn soup\n\n# Function to count the maximum number of page\n# from a query\ndef get_max_page(url):\n\tpage = get_page(url)\n\tmax_page = page.select_one(\"a.pageNum:last-child\").text\n\tmax_page = int(max_page)\n\tsecondes = str(datetime.timedelta(seconds = (max_page*5)+15))\n\tprint(f\"\\nThe process will take approximately {secondes}\\n\")\n\treturn max_page\n\n# Creates all the links of the pages from a query\ndef search(query):\n\tbase_1 = \"https://fr.tripadvisor.ch/Search?q=\"\n\tbase_2 = \"&searchSessionId=5C06403261128E7969312ED82F061AD61669485490961ssid&sid=B418D3B4C3F74A2E826FEBBDD0AB01ED1669488043512&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o=\"\n\tlink_max_page = base_1 + query + base_2 + \"0\"\n\tmax_page = get_max_page(link_max_page)\n\tall_pages = []\n\tfor i in range(0,max_page):\n\t\tall_pages.append(base_1 + query + base_2 + str(i*30))\n\treturn all_pages\n\n# Allows to keep missing value as empty for text\n# NOTE: Thank you for the guy who did this: https://gist.github.com/alexanderldavis/628d51405d38bc1d6c45c7eaec9bbd4b\ndef get_text_if_exists(soup, tag, tag_class=None, return_text=True):\n    if tag_class:\n        item = soup.find(tag, {\"class\":tag_class})\n    else:\n        item = soup.find(tag)\n    if item and return_text:\n        return item.text\n    elif item:\n        return item\n    return \"\"\n\n# Allows to keep missing value as empty for\n# attributes\ndef get_attr_if_exists(soup, tag, tag_class=None, return_attr=True):\n    if tag_class:\n        item = soup.find(tag, {\"class\":tag_class})\n    else:\n        item = soup.find(tag)\n    if item and return_attr:\n        return item['alt']\n    elif item:\n        return item\n    return \"\"\n\n# Collects all the location names from a page\ndef get_name(page):\n\tname = []\n\tfor i in page.select(\"div[data-widget-type='LOCATIONS'].content-column.result-card\"):\n\t\tname.append(get_text_if_exists(i, tag = \"div\", tag_class = \"result-title\"))\n\treturn name\n\n# Collects all the location ratings from a page\ndef get_rate(page):\n\trate = []\n\tfor i in page.select(\"div[data-widget-type='LOCATIONS'].content-column.result-card\"):\n\t\trate.append(get_attr_if_exists(i, tag = \"span\", tag_class = \"ui_bubble_rating\"))\n\treturn rate\n\n# Collects the number of voters for each location\n# of a page\ndef get_review(page):\n\treview = []\n\tfor i in page.select(\"div[data-widget-type='LOCATIONS'].content-column.result-card\"):\n\t\treview.append(get_text_if_exists(i, tag = \"div\", tag_class = \"rating-review-count\"))\n\treturn review\n\n# Collects all the location addresses from a page\ndef get_address(page):\n\taddress = []\n\tfor i in page.select(\"div[data-widget-type='LOCATIONS'].content-column.result-card\"):\n\t\taddress.append(get_text_if_exists(i, tag = \"div\", tag_class = \"address\"))\n\treturn address\n\n# Collects the number of comments for each\n# location from a page\ndef get_comment(page):\n\tcomment = []\n\tfor i in page.select(\"div[data-widget-type='LOCATIONS'].content-column.result-card\"):\n\t\tcomment.append(get_text_if_exists(i, tag = \"div\", tag_class = \"review-mention-block\"))\n\treturn comment\n\n# Collects all the informations cited above\n# (name, rating, etc.) and format the in a\n# Data Frame (data table)\ndef collect_data(url):\n\tpage = get_page(url)\n\n\tname = get_name(page)\n\trate = get_rate(page)\n\treview = get_review(page)\n\taddress = get_address(page)\n\tcomment = get_comment(page)\n\n\tdata = {\n\t\t\"name\": name,\n\t\t\"rate\": rate,\n\t\t\"review\": review,\n\t\t\"address\": address,\n\t\t\"comment\": comment\n\t}\n\n\tdata = pd.DataFrame(data)\n\n\ttime.sleep(3)\n\n\treturn data\n\n# The MAIN FUNCTION which bring all the other\n# together. With one query (a place), \n# we get all the information cited above \n# for all the location available in the website.\ndef tripadvisor(query):\n\tpage_list = search(query)\n\n\tprint(\"\\nCollection in progress, please wait :)\\n\")\n\n\tdata = []\n\n\tfor link in page_list:\n\t\tdata.append(collect_data(link))\n\n\tdata = pd.concat(data)\n\n\tfile = query + \"_tripadvisor.csv\"\n\n\tdata.to_csv(file, header=True, encoding = \"utf-8\", sep = \";\", index = False)\n\n\tprint(f\"Your data was saved as '{file}' in the following folder:\\n\")\n\tprint(os.getcwd())\n\tprint(\"\\n\")\n\n\treturn data\n\n'''\nINTERACTIVE INTERFACE\nNow we build the interactive interface to make\nthe queries possible.\n'''\n\n# Welcoming message\nprint(\"Hi! Welcome to the trip advisor scraping app!\")\nprint(\"-------------------------------------------------------\")\nprint(\"This app helps you to collect data from trip advisor :)\\n\\n\\n\")\n\nterm = input(\"Please enter a location:\\n\")\n\nprint(\"\\nThank you ;)\\n\")\nprint(\"So...\")\n\ntripadvisor(term)",
+			"file": "tripad.py",
+			"file_size": 5567,
+			"file_write_time": 133147456465764707,
+			"settings":
+			{
+				"buffer_size": 5372,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					9,
+					1,
+					"left_delete",
+					null,
+					"AQAAAOABAAAAAAAA4AEAAAAAAAABAAAACQ",
+					"AQAAAAAAAAABAAAA4QEAAAAAAADhAQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AQAAAOABAAAAAAAA4QEAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4AEAAAAAAADgAQAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "Windows PowerShell                                     \nCopyright (C) Microsoft Corporation. Tous droits réserv​‌​\nés.                                                    \n                                                       \nLe chargement des profils personnels et système a duré \n547 ms.                                                \nC:\\Users\\hategeki\\Desktop\\CODE\\Python\\Projets\\Web_scrap​‌​\ning\\tripad_python 0ms  07:53:33 06-12-2022             \n ⚡hategeki ❯❯ ",
+			"settings":
+			{
+				"buffer_size": 468,
+				"line_ending": "Windows",
+				"name": "PowerShell",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python_Run.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python_Run.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"term",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"tem",
+				"View: Toggle Minimap"
+			],
+			[
+				"font",
+				"Snippet: font awesome CDN"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Material Theme: Activate theme"
+			],
+			[
+				"sendco",
+				"Preferences: SendCode Settings"
+			],
+			[
+				"send",
+				"Preferences: SendCode Settings"
+			],
+			[
+				"sendc",
+				"Preferences: SendCode Settings"
+			],
+			[
+				"te",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"lsp:disab",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"lsp:disabl",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"lsp:enabl",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp:dis",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"lsp:ena",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax:r",
+				"Set Syntax: R"
+			],
+			[
+				"lsp:",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				":enable",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"color",
+				"Color Scheme Editor: Edit current color scheme"
+			],
+			[
+				"colorsch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings"
+			],
+			[
+				"sendec",
+				"SendCode: Choose Program"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"keybid",
+				"Preferences: Key Bindings"
+			],
+			[
+				"keybiding",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"terminu",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"terminus",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"key bin",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"view: ",
+				"View: Toggle Menu"
+			],
+			[
+				"ui:sele",
+				"UI: Select Theme"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"ui:",
+				"UI: Select Color Scheme"
+			],
+			[
+				"select th",
+				"UI: Select Theme"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"terminus:ope",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"cons",
+				"SublimeREPL: Python - Sublime Text Console"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 102.0,
+		"history":
+		[
+			"print(\"C'est du code python\")",
+			"2+2",
+			"quit()",
+			"print(\"C'est un code python\")",
+			"3+3",
+			"2+2",
+			"test"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/hategeki/Desktop/CODE/Python/Projets/Web_scraping/tripad_python",
+		"/C/Users/hategeki/Desktop/CODE/Python/Projets/Web_scraping/tripad_python/old_code"
+	],
+	"file_history":
+	[
+		"/C/Users/hategeki/Desktop/CODE/powershell/Theme/vestin.omp.json",
+		"/C/Users/hategeki/Desktop/test python.py",
+		"/C/Users/hategeki/Desktop/tripad.py",
+		"/C/Users/hategeki/Desktop/test.R",
+		"/C/Users/hategeki/Desktop/ensiegnement.txt",
+		"/C/Users/hategeki/Desktop/Markdown/localch.py",
+		"/C/Users/hategeki/Desktop/test.py",
+		"/C/Users/hategeki/Desktop/test.jl",
+		"/C/Users/hategeki/Desktop/localch.R",
+		"/C/Users/hategeki/Desktop/test/localch.py",
+		"/C/Users/hategeki/Desktop/test/localch.R",
+		"/C/Users/hategeki/Desktop/test/lecture.R",
+		"/C/Users/hategeki/Desktop/whatsapp_conv.txt",
+		"/C/Users/hategeki/Desktop/Export ESPA.R",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/Stage/Code/R/harmonized.Rmd",
+		"/C/Users/hategeki/Desktop/Markdown/A_Moi/Take_over/take_over_automne_2022/whatsapp_conv.txt",
+		"/C/Users/hategeki/Desktop/autres liens.txt",
+		"/C/Users/hategeki/Desktop/administration des framadate.txt",
+		"/C/Users/hategeki/Desktop/Markdown/A_Moi/Take_over/take_over_automne_2022/Take over WhatsApp.txt",
+		"/C/Users/hategeki/Desktop/R REST API.txt",
+		"/C/Users/hategeki/Desktop/Markdown/A_Moi/Take_over/take_over_automne_2022/take over web scraping.txt",
+		"/C/Users/hategeki/Desktop/test.html",
+		"/C/Users/hategeki/Desktop/test esquisse.R",
+		"/C/Users/hategeki/Desktop/Panel data vs mixed model.txt",
+		"/C/Users/hategeki/Desktop/Markdown/A_Moi/PhD/Articles/Thèse article 1.txt",
+		"/C/Users/hategeki/Desktop/fichier.R",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Scripts/Poubelle.R",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/cleaning.R",
+		"/C/Users/hategeki/Desktop/Markdown/A_Moi/Memoire_Local/Article en plus intéressant.txt",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Scripts/cleaning.R",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Data/isco19.csv",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Scripts/Observations.txt",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Results/Profil des formes juridiques du public.txt",
+		"/C/Users/Vestin/Desktop/UNIVERSITÉ/COURS/2_MA - Socioéconomie/2ème année/Printemps_2022/EMI/Dossiers/fonction.R",
+		"/C/Users/Vestin/Downloads/do-f-40-se_user-harm-fmt-1970-2010.txt",
+		"/C/Users/Vestin/Downloads/do-f-40-se_fmt-p3_2018-2020.txt",
+		"/C/Users/Vestin/Downloads/do-f-40-se_fmt-p5_2016-2020.txt",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Codebook/do-f-40-se_fmt-p3_2018-2020.txt",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Scripts/info models.txt",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Scripts/problem with glmer variance component.txt",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/analyses/Scripts/regressions.R",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-VAR-LABEL-F-SAS.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-VAR-LABEL-F-SPSS.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-VALUE-LABEL-F-SPSS.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-FORMAT-D-SAS.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-FORMAT-F-SAS.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-INPUT.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-INPUT-TRIM.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-VALUE-LABEL-D-SPSS.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-VAR-LABEL-D-SPSS.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/ESPA/SAKE1991-2020_Ferro Luzzi/Total_SAKE2020/SAKE2020_Metadata/S2020-VAR-LABEL-D-SAS.TXT",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/Recensement-Releve_structurel/Recensement/RS_optimal.R",
+		"/C/Users/Vestin/switchdrive/A_Moi/Memoire_Local/Memoire/Methode/Codebook/do-f-40-se_fmt-p3_2018-2020.txt",
+		"/?isis.unige.ch/nasac/gsem/ireg-secure/IREG-SECURE/mandat-BIE/data/Recensement-Releve_structurel/Releve_structurel/zpers_load.R",
+		"/C/Users/Vestin/Desktop/CODE/R/Projets/AEHES/AEHES.Rproj",
+		"/C/Users/Vestin/Desktop/CODE/R/Projets/Votation_PCS_simple/Votation_PCS_simple.Rproj",
+		"/C/Users/Vestin/AppData/Roaming/Sublime Text 3/Mariana.sublime-color-scheme",
+		"/C/Users/Vestin/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Vestin/switchdrive/agora.txt",
+		"/C/Users/Vestin/switchdrive/A moi/Mémoire Local/Mémoire/Méthode/Base à analyser.txt",
+		"/C/Users/Vestin/switchdrive/A moi/Code/Exstension vs code à installer.txt",
+		"/C/Users/Vestin/AppData/Roaming/Sublime Text 3/Packages/User/glassit.sublime-settings",
+		"/C/Users/Vestin/AppData/Roaming/Sublime Text 3/Packages/GlassIt/glassit.sublime-settings",
+		"/C/Users/Vestin/Desktop/CODE/Python/bible_résumée.py",
+		"/C/Users/Vestin/Desktop/Nouveaux articles/Choix articles.txt",
+		"/C/Users/Vestin/Desktop/Bur/Stage publication/zpers_load.R",
+		"/C/Users/Vestin/Desktop/Bur/Stage publication/Stage contrôle.txt",
+		"/C/Users/Vestin/Desktop/Bur/Stage publication/modifications.txt",
+		"/C/Users/Vestin/Desktop/Bur/markfdown cheat sheet.txt",
+		"/C/Users/Vestin/Desktop/Disney plus.txt",
+		"/C/Users/Vestin/Desktop/Petites lectures pour le mémoire.txt",
+		"/C/Users/Vestin/Desktop/Petites lectures pour le mémoire",
+		"/C/Users/Vestin/Desktop/CODE/Python/Disney +",
+		"/C/Program Files/Sublime Text 3/migrant social network.txt",
+		"/C/Users/Vestin/switchdrive/A moi/Relevé structurel codebook/édité/do-f-40-se_fmt-p3_2018-2020.txt",
+		"/C/Users/Vestin/Desktop/CODE/Rprojet docu.txt",
+		"/C/Users/Vestin/Desktop/Printemps_2022/EMI/Dossiers/style.css",
+		"/C/Users/Vestin/Desktop/Printemps_2022/EMI/Dossiers/Modifications.txt",
+		"/C/Users/Vestin/Desktop/markfdown cheat sheet.txt",
+		"/C/Users/Vestin/Desktop/Postulation juin/Cand_secrétaire_comptable 01_06_2022.txt",
+		"/C/Users/Vestin/Desktop/discord post.txt",
+		"/C/Users/Vestin/Desktop/extrait_to_csv.py",
+		"/C/Users/Vestin/Desktop/CODE/R/Projets/Pic/liens_test.csv",
+		"/C/Users/Vestin/Desktop/CODE/R/Projets/Pic/names.txt",
+		"/C/Users/Vestin/Desktop/CODE/R/Projets/Web Scrapping/deviantart/art_web_scraping.R",
+		"/C/Users/Vestin/Desktop/test.R",
+		"/C/Users/Vestin/Desktop/Postulation juin/Aide comptable stagiaire HF.txt",
+		"/C/Users/Vestin/Desktop/modifications.txt",
+		"/C/Users/Vestin/Desktop/Cand_secrétaire_comptable 01_06_2022.txt",
+		"/C/Users/Vestin/Desktop/Printemps_2022/ADR/Ucinet exercice.txt",
+		"/C/Users/Vestin/Desktop/modification.txt",
+		"/C/Users/Vestin/Desktop/Retranscription de la partie.txt",
+		"/C/Users/Vestin/Desktop/R.bib",
+		"/C/Users/Vestin/Desktop/caracter_ggplot2.R",
+		"/C/Users/Vestin/Desktop/Logements/logement neuchâtel.txt",
+		"/C/Users/Vestin/Desktop/Scripts/Assignment_week_5.Rmd",
+		"/C/Users/Vestin/Desktop/Scripts/Assignment_week_10.Rmd",
+		"/C/Users/Vestin/Desktop/UNIVERSITÉ/STAGE/DONNEES/0_Documentation/ESPA/S2020-VAR-LABEL-F-SAS.TXT",
+		"/C/Users/Vestin/Downloads/mqa2210.r",
+		"/C/Users/Vestin/Desktop/Printemps_2022/emi/dossiers/emi_nettoyage.Rmd",
+		"/C/Users/Vestin/Desktop/Printemps_2022/MQA/tps/tp2/fonctions.R",
+		"/C/Users/Vestin/Desktop/test.bib",
+		"/C/Users/Vestin/Desktop/Stage contrôle.txt",
+		"/C/Users/Vestin/Desktop/CODE/Python/localch/test.csv",
+		"/C/Users/Vestin/Desktop/Séminaire SDSS.txt",
+		"/C/Users/Vestin/Desktop/multilevel regression survey weigth.txt",
+		"/C/Users/Vestin/Desktop/zpers_load.R",
+		"/C/Users/Vestin/Desktop/mail pour le trackdown.txt",
+		"/C/Users/Vestin/Desktop/Printemps 2022/SPS/Source.txt",
+		"/C/Users/Vestin/Desktop/Printemps 2022/PFAC/dossier/liens des données et des articles.txt",
+		"/C/Users/Vestin/Desktop/bootstrap.R",
+		"/C/Users/Vestin/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1",
+		"/C/Users/Vestin/Desktop/CODE/Python/localch/contact_fiduciaire.csv",
+		"/C/Users/Vestin/Desktop/Atractiveness/sources.txt",
+		"/C/Users/Vestin/Desktop/Printemps 2022/MQA/tps/tp2/predicted.R",
+		"/C/Users/Vestin/Desktop/Printemps 2022/MQA/tps/test.csv",
+		"/C/Users/Vestin/Desktop/mail pour le trackdown",
+		"/C/Users/Vestin/Desktop/articles à finir.txt",
+		"/C/Users/Vestin/Downloads/Basic Linear Algebra with R  R in the Lab.md",
+		"/C/Users/Vestin/AppData/Local/Programs/Python/Python310/Lib/site-packages/radian/shell.py",
+		"/C/Users/Vestin/AppData/Local/Programs/Python/Python310/Lib/site-packages/radian/settings.py",
+		"/C/Users/Vestin/AppData/Local/Programs/Python/Python310/Lib/site-packages/radian/console.py",
+		"/C/Users/Vestin/AppData/Local/Programs/Python/Python310/Lib/site-packages/radian/reticulate/config.R",
+		"/C/Users/Vestin/AppData/Local/Programs/Python/Python310/Lib/site-packages/radian/reticulate/key_bindings.R",
+		"/C/Users/Vestin/Desktop/Projet_Data_Science-main/app.R",
+		"/C/Users/Vestin/Desktop/Projet_Data_Science-main/project.R",
+		"/C/Users/Vestin/Downloads/mqa2209.r",
+		"/C/Users/Vestin/Desktop/Printemps 2022/ADR/Seminaire/Semaine2/assignment_1/assignement_hategekimana_smith.R"
+	],
+	"find":
+	{
+		"height": 31.3333333333
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tripad.py",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "LSP-pylsp"
+								}
+							],
+							"lsp_active": true,
+							"lsp_hover_provider_count": 2,
+							"lsp_uri": "file:///C:/Users/hategeki/Desktop/CODE/Python/Projets/Web_scraping/tripad_python/old_code/tripad.py",
+							"rainbow_checked": true,
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.hidden-color-scheme",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"lsp_uri": "buffer://sublime/114",
+							"rainbow_checked": true,
+							"result_base_dir": "C:\\Users\\hategeki\\Desktop\\CODE\\Python\\Projets\\Web_scraping\\tripad_python",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"rulers":
+							[
+								500
+							],
+							"scroll_past_end": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus.highlight_counter": 8,
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"powershell.exe"
+								],
+								"cwd": "C:\\Users\\hategeki\\Desktop\\CODE\\Python\\Projets\\Web_scraping\\tripad_python",
+								"default_title": "PowerShell",
+								"env":
+								{
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": "Terminus",
+								"show_in_panel": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 40.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 40.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.3333333333
+	},
+	"input":
+	{
+		"height": 172.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.518954623779,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.Terminus":
+	{
+		"height": 357.0
+	},
+	"output.Terminus 2":
+	{
+		"height": 491.0
+	},
+	"output.diagnostics":
+	{
+		"height": 51.0
+	},
+	"output.exec":
+	{
+		"height": 271.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.language servers":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/R/R.sublime-build",
+	"project": "tripad.sublime-project",
+	"replace":
+	{
+		"height": 58.6666666667
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				".r",
+				"critiques_films\\start.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 119.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

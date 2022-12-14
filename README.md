@@ -1,6 +1,41 @@
 # tripad_python
 > **Goal**: To create a specific web scraper for trip advisor. We want to collect data about trip advisor recommendation for restaurants, hotels, trip advices and vacation rentals. We want to collect the name, the number of comment, the comments themselves, the rating, the rank and the localization of each recommendation.
 
+
+
+## Plan
+**Architecture of the functions project**
+
+**Current work**
+> Will soon be merged with the old code (see bellow)
+```mermaid
+graph LR;
+	gal[get_all_links] --> gq[get_query]
+	gal --> cl[click_link]
+```
+
+**Old code (still working)**
+> This code didn't help getting the information in the location of palermo. The new one correct the problem. It is constructed separatly right now (see up)
+
+```mermaid
+graph LR;
+	t[tripadvisor] --> s[search];
+	t --> cd[collect_data];
+	s --> gmp[get_max_page];
+	gmp --> gp[get_page];
+	cd --> gp;
+	cd --> gn[get_name];
+	cd --> grt[get_rate];
+	cd --> gr[get_review];
+	cd --> ga[get_adress];
+	cd --> gc[get_comment];
+	gn --> gtie[get_text_if_exists];
+	grt --> get_attr_if_exists;
+	gr --> gtie;
+	ga --> gtie;
+	gc --> gtie;
+```
+
 ## Current situation
 
 The code is running (take at most 3 minutes) and collect the following informations:
@@ -20,13 +55,16 @@ The code is running (take at most 3 minutes) and collect the following informati
 
 Steps:
 
-- [ ] Refactoring the old code
-  - [ ] Create a map of the functions
-  - [ ] Group functions into specific modules
-  - [ ] Test the new modules on the new pages
-  - [ ] Bring the useful one to the new folder
-- [ ] Create a scrapper specifically for "Palermo"
-  - [ ] Create a new map for the functions
+- [x] Refactoring the old code
+  - [x] Create a map of the functions
+  - [x] Group functions into specific modules
+  - [x] Test the new modules on the new pages
+  - [x] Bring the useful one to the new folder
+- [ ] Create a scrapper
+  - [x] See if it is possible to create a general quering one
+    - [x] If yes, start the querying task
+    - [ ] Create a time estimator
+  - [x] Create a new map for the functions
   - [ ] Start with
     - [ ] Trip advices
     - [ ] Hôtels
