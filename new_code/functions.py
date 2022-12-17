@@ -32,7 +32,7 @@ def get_page(url):
 		
 		# Get the content
 		response = page.content()
-		soup = BeautifulSoup(response, "lxml")
+		soup = BeautifulSoup(response, "html.parser")
 
 		# Close all
 		page.close()
