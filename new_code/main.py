@@ -1,5 +1,5 @@
 # Importing all the functions I created
-from new_code.functions import *
+from functions import *
 
 # Get all the main links for the collection (nt complete)
 all_links = get_all_links("palermo")
@@ -17,5 +17,3 @@ for i in all_links:
 # Pour tourner les page il y a un oa0 pour toutes les pages (30 résultats par pages)
 # Exemple: https://www.tripadvisor.com/Attractions-g60763-Activities-oa0-New_York_City_New_York.html
 # S'il n'y en a pas, l'ajouter manuellement
-# 
-

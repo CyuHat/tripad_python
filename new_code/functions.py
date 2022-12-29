@@ -10,6 +10,12 @@ import datetime
 import pandas as pd
 # To manage the files and directories
 import os
+# To use regular expressions
+import re
+# To manage date and time
+import datetime
+# To have some mathematical function
+import math
 
 '''
 FUNCTIONS:
@@ -28,7 +34,7 @@ def get_page(url):
 
 		# Get the page
 		page.goto(url)
-		time.sleep(2) # waiting
+		time.sleep(3) # waiting
 		
 		# Get the content
 		response = page.content()
@@ -41,7 +47,7 @@ def get_page(url):
 
 	return soup
 
-def click_link(url, css):
+def click_link(url, css, scroll=0):
 	with sync_playwright() as playwright:
 		# Open new page
 		browser = playwright.chromium.launch(headless=True)
@@ -50,6 +56,7 @@ def click_link(url, css):
 
 		# Get the page
 		page.goto(url)
+		page.mouse.wheel(0, scroll)
 		time.sleep(1) # waiting
 		page.click(css)
 		time.sleep(1) 
@@ -72,21 +79,67 @@ def click_link(url, css):
 # from a query
 def get_max_page(url):
 	page = get_page(url)
-	max_page = page.select_one("a.pageNum:last-child").text
-	max_page = int(max_page)
-	secondes = str(datetime.timedelta(seconds = (max_page*5)+15))
-	print(f"\nThe process will take approximately {secondes}\n")
-	return max_page
+
+	if "c42" in url:
+		number_of_entities = int(re.findall("\\d+", page.select_one("div.IuRIu span.biGQs").text)[0])
+		number_of_pages = math.ceil(number_of_entities/30)
+		print("For tours:")
+	elif "Attractions" in url:
+		number_of_entities = int(re.findall("(?<=of\\s)\\d+",page.select_one("div.Ci").text.replace(",",""))[0])
+		number_of_pages = math.ceil(number_of_entities/30)
+		print("For attractions:")
+	elif "Hotels" in url:
+		number_of_entities = int(re.findall("\\d+",page.select_one("span.qrwtg").text.replace(",",""))[0])
+		number_of_pages = math.ceil(number_of_entities/30)
+		print("For hotel:")
+	elif "VRACSearch" in url:
+		number_of_entities = int(re.findall("\\d+", page.select_one("div.S5.H4.n").text)[0])
+		number_of_pages = math.ceil(number_of_entities/50)
+		print("For vacation rental:")
+	elif "Restaurants" in url:
+		number_of_entities = int(page.select_one("span.SgeRJ span.b").text)
+		number_of_pages = math.ceil(number_of_entities/30)
+		print("For restaurants:")
+	else:
+		number_of_entities = 0
+		number_of_pages = 0
+		print("The link format is not valid...")
+
+	total_time = number_of_pages + number_of_entities
+
+	print(f"Number of entities: {number_of_entities}")
+	print(f"Number of pages: {number_of_pages}")
+	secondes = str(datetime.timedelta(seconds = (total_time*3.5)))
+	print(f"The process will take approximately {secondes}\n")
+
+	return total_time
 
 # Get the first entry link
 def get_query(query):
-	base_1 = "https://fr.tripadvisor.ch/Search?q="
+	base_1 = "https://www.tripadvisor.ch/Search?q="
 	base_2 = "&searchSessionId=5C06403261128E7969312ED82F061AD61669485490961ssid&sid=B418D3B4C3F74A2E826FEBBDD0AB01ED1669488043512&blockRedirect=true&ssrc=m&isSingleSearch=true&geo=1&o="
 	link_max_page = base_1 + query + base_2 + "0"
 	return link_max_page
 
-# Get all the neccessary links
-def get_all_links(query):
+# Format restaurants link format (Ajax)
+def format_resto(url):
+	geo = re.findall("\\d{6}", url)[0]
+
+	current = datetime.datetime.now()
+	
+	p1 = "https://www.tripadvisor.com/RestaurantSearch?Action=PAGE&ajax=1&availSearchEnabled=true&sortOrder=popularity&geo="
+	p2 = "&itags=10591&eaterydate="
+	p3 = "&date="
+	p4 = "&time="
+	p5 = "&people=2&o=a0"
+
+	resto_url = p1 + geo + p2 + current.strftime("%Y_%m_%d") + p3 + current.strftime("%Y-%m-%d") + p4 + current.strftime("%H:%M:%S") + p5
+
+	return resto_url
+
+
+# Get the main neccessary links
+def get_main_links(query):
 	url = get_query(query)
 
 	main_page = click_link(url, "div.prw_search_search_result_geo div.result-content-columns")
@@ -94,13 +147,43 @@ def get_all_links(query):
 	base = "https://www.tripadvisor.com"
 
 	hotel_url = base + main_page[1].select_one(".jdaPs:nth-child(1) a")['href']
-	rental_url = base + main_page[1].select_one(".jdaPs:nth-child(2) a")['href']
-	things_url = base + main_page[1].select_one(".jdaPs:nth-child(3) a")['href']
-	resto_url = base + main_page[1].select_one(".jdaPs:nth-child(4) a")['href']
+	hotel_url = re.sub("(g\\d{6})-", "\\1-oa0-", hotel_url)
 
-	all_urls = [hotel_url, rental_url, things_url, resto_url]
+	things_url = base + main_page[1].select_one(".jdaPs:nth-child(2) a")['href']
 
-	return all_urls
+	resto_url = base + main_page[1].select_one(".jdaPs:nth-child(3) a")['href']
+	resto_ajax = format_resto(resto_url)
+
+	renta_url = re.sub("(g\\d{6})-","\\1-oa0-Reviews-",hotel_url.replace("Hotels-", "VRACSearch-").replace("-Hotels", "-Vacation_Rentals"))
+
+	things = click_link(things_url, "div.PCHTx.A.krgaa a.raEkE", scroll=4000) 
+
+	things_1_url = things[0]
+
+	things_2_url = base + things[1].select_one("a.KoOWI[href*='c42']").get('href')
+	things_2_url = re.sub("(c42)-", "\\1-oa0-", things_2_url)
+
+	main_urls = [things_1_url, things_2_url, hotel_url, renta_url, resto_url, resto_ajax]
+
+	return main_urls
+
+# Get all the necessary links
+def get_all_links(query):
+	print("Getting the main links...\n")
+	main_links = get_main_links(query)
+
+	print("Done! Now estimating the time needed\n")
+
+	total_for_all = 0
+
+	for i in main_links[0:5]:
+		total_for_all = total_for_all + get_max_page(i)
+
+	total_for_all = str(datetime.timedelta(seconds = (total_for_all*3.5)))
+
+	print(f"\nIn total, the process will take approximately {total_for_all}")
+
+	return main_links
 
 # Creates all the links of the pages from a query
 def search(query):
