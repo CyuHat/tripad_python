@@ -11,10 +11,26 @@
 > Will soon be merged with the old code (see bellow)
 ```mermaid
 graph LR;
-	gal[get_all_links] --> gml[get_main_links]
-	gml --> gq[get_query]
-	gml --> cl[click_link]
-	gml --> format_resto
+	gal[get_all_links] --> gml[get_main_links];
+	gml --> gq[get_query];
+	gml --> cl[click_link];
+	gml --> format_resto;
+	gal --> gmp[get_max_page];
+	gal --> fi[format_iterable];
+	t[tripadvisor] --> s[search];
+	t --> cd[collect_data];
+	gmp --> gp[get_page];
+	cd --> gp;
+	cd --> gn[get_name];
+	cd --> grt[get_rate];
+	cd --> gr[get_review];
+	cd --> ga[get_adress];
+	cd --> gc[get_comment];
+	gn --> gtie[get_text_if_exists];
+	grt --> get_attr_if_exists;
+	gr --> gtie;
+	ga --> gtie;
+	gc --> gtie;
 ```
 
 We have a certain amount of page and entities for each type of data
@@ -87,21 +103,21 @@ Steps:
     - [x] Create a time estimator
   - [x] Create a new map for the functions
   - [ ] Information to scrap
-    - [ ] Name
-    - [ ] Type
-    - [ ] Description
-    - [ ] Rank
-    - [ ] Rating
+    - [ ] Name (depth 1)
+    - [ ] Type (depth 1)
+    - [ ] Description (depth 2)
+    - [ ] Rank (depth 1)
+    - [ ] Rating (Depth 1)
     - [ ] Number of reviews / comment
-    - [ ] Address
-    - [ ] Geo-tag
-    - [ ] Picture?
-  - [ ] Start with
+    - [ ] Address (Depth 1 or 2)
+    - [ ] Geo-tag (Probably depth 2)
+    - [ ] Picture (link Depth 1)
+  - [x] Start with
     - [x] Trip advices
-    - [ ] Tours
-    - [ ] Hotels
-    - [ ] Vacation rentals
-    - [ ] **New**: Restaurant
+    - [x] Tours
+    - [x] Hotels
+    - [x] Vacation rentals
+    - [x] **New**: Restaurant
   - [x] Add a timer to see how long it would take
   - [ ] Do some test with limited figure or small places
 - [ ] Add features to collect comments

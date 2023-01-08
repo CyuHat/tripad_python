@@ -57,9 +57,9 @@ def click_link(url, css, scroll=0):
 		# Get the page
 		page.goto(url)
 		page.mouse.wheel(0, scroll)
-		time.sleep(1) # waiting
+		time.sleep(1.5) # waiting
 		page.click(css)
-		time.sleep(1) 
+		time.sleep(1.5) 
 
 		with page.context.expect_page() as tab:
 			# print(tab.value.url)
@@ -167,6 +167,28 @@ def get_main_links(query):
 
 	return main_urls
 
+# Create all the page links we will iterate through
+def format_iterable(iterable_list, max_list):
+	iterable_complet = []
+
+	iter_30 = list(iterable_list[i] for i in [0,1,2,4])
+	max_30 = list(max_list[i] for i in [0,1,2,4])
+
+	iter_50 = iterable_list[3]
+	max_50 = max_list[3]
+
+	for it30, ma30 in zip(iter_30, max_30):
+		for i in range(0, ma30):
+			i = str(i * 30)
+			iterable_complet.append(it30.replace("a0", "a" + i))
+
+	for i in range(0, max_50):
+		i = str(i * 50)
+		iterable_complet.append(iter_50.replace("a0", "a" + i))
+
+	return iterable_complet
+
+
 # Get all the necessary links
 def get_all_links(query):
 	print("Getting the main links...\n")
@@ -176,14 +198,24 @@ def get_all_links(query):
 
 	total_for_all = 0
 
+	max_list = []
+
 	for i in main_links[0:5]:
-		total_for_all = total_for_all + get_max_page(i)
+		max_page = get_max_page(i)
+		total_for_all = total_for_all + max_page
+		max_list.append(max_page)
 
 	total_for_all = str(datetime.timedelta(seconds = (total_for_all*3.5)))
 
 	print(f"\nIn total, the process will take approximately {total_for_all}")
 
-	return main_links
+	iterable_list = list(main_links[i] for i in [0,1,2,3,5])
+
+	all_links = format_iterable(iterable_list, max_list)
+
+	response = [main_links, all_links]
+
+	return response
 
 # Creates all the links of the pages from a query
 def search(query):

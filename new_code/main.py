@@ -17,3 +17,13 @@ for i in all_links:
 # Pour tourner les page il y a un oa0 pour toutes les pages (30 résultats par pages)
 # Exemple: https://www.tripadvisor.com/Attractions-g60763-Activities-oa0-New_York_City_New_York.html
 # S'il n'y en a pas, l'ajouter manuellement
+
+iterable_list = list(all_links[i] for i in [0,1,2,3,5])
+
+iterable_list
+
+iterable_list[4].replace("a0", "a30", 1)
+
+test = iterable_list
+
+max_list = [5,5,5,5,5]
